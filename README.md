@@ -162,8 +162,11 @@ Expected behavior:
 
 ## Step 8 — Enable and Open Grafana
 
-Port-forward Grafana
+Port-forward Grafana :
+```bash
 kubectl port-forward svc/monitoring-grafana 3000:80 -n monitoring
+```
+
 open link -> http://localhost:3000/
 
 ## Step 9 — Grafana Login Credentials
